@@ -235,8 +235,8 @@ class DS_MODEL():
     def get_estimators(self, type='classification'):
         if type=='classification':
             return self.classify_estimators
-        else:
-            return
+        elif type=='regression':
+            return self.regression_estimators
 
 class DS_SHAP():
     def __init__(self, model, x):
