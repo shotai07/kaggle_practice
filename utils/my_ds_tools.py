@@ -94,7 +94,7 @@ class DS_PREPROCESS():
 
 class DS_MODEL():
     def __init__(self):
-        self.base_classifier_estimators = {
+        self.base_classify_estimators = {
             'lgb': lgb.LGBMClassifier(num_leaves=100, learning_rate=0.1, min_split_gain=0),
             'rbf_svm': SVC(kernel='rbf', random_state=1),
             'linear_svm': SVC(kernel='linear', random_state=1),
@@ -104,18 +104,23 @@ class DS_MODEL():
             'nb': GaussianNB(),
             'knn': KNeighborsClassifier(),
         }
-        self.classifier_estimators = {}
+        self.classify_estimators = {}
+
+        self.base_regression_estimators = {
+            'lgb': lgb.LGBMRegressor(num_leaves=100, learning_rate=.1, min_split_gain=0)
+        }
+        self.regression_estimators = {}
         return
 
     def class_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
         if est_name == 'vote':
-            if len(self.classifier_estimators.keys()) > 2:
-                model = VotingClassifier(estimators=self.classifier_estimators.items())
+            if len(self.classify_estimators.keys()) > 2:
+                model = VotingClassifier(estimators=self.classify_estimators.items())
             else:
                 print('Caution: No models')
                 return
         else:
-            model = self.base_classifier_estimators[est_name]
+            model = self.base_classify_estimators[est_name]
 
         model.fit(x_train, y_train)
 
@@ -127,18 +132,18 @@ class DS_MODEL():
             self.class_score_report(y_test, y_pred)
 
         # add model to dict
-        self.classifier_estimators[est_name] = model
+        self.classify_estimators[est_name] = model
         return y_pred
 
     def class_fit_predict_cv(self, est_name, x=None, y=None, report_flg=True):
         if est_name == 'vote':
-            if len(self.classifier_estimators.keys()) > 2:
-                model = VotingClassifier(estimators=self.classifier_estimators.items())
+            if len(self.classify_estimators.keys()) > 2:
+                model = VotingClassifier(estimators=self.classify_estimators.items())
             else:
                 print('Caution: No models')
                 return
         else:
-            model = self.base_classifier_estimators[est_name]
+            model = self.base_classify_estimators[est_name]
 
         scores_list = {
             'auc': [],
@@ -189,10 +194,47 @@ class DS_MODEL():
         print('F1: %.2f' % scores['f1'])
         return
 
+    def reg_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
+        if est_name == 'vote':
+            if len(self.classify_estimators.keys()) > 2:
+                model = VotingClassifier(estimators=self.classify_estimators.items())
+            else:
+                print('Caution: No models')
+                return
+        else:
+            model = self.base_regression_estimators[est_name]
+
+        model.fit(x_train, y_train)
+
+        # predict test data
+        y_pred = model.predict(x_test)
+
+        # report scores
+        if report_flg == True:
+            self.reg_score_report(y_test, y_pred)
+
+        # add model to dict
+        self.regression_estimators[est_name] = model
+        return
+
+    def calc_reg_scores(self, y_test, y_pred):
+        mae = metrics.mean_absolute_error(y_test, y_pred)
+        mae_mean = mae / y_test.mean()
+        rmse = np.sqrt(metrics.mean_squared_error(y_test, y_pred))
+        rmse_mean = rmse / y_test.mean()
+        return {'mae': mae, 'mae_mean': mae_mean, 'rmse': rmse, 'rmse_mean': rmse_mean}
+
+    def reg_score_report(self, y_test, y_pred):
+        scores = self.calc_reg_scores(y_test, y_pred)
+        print('MAE: %.2f' % scores['mae'])
+        print('MAE/MEAN: %.4f' % scores['mae_mean'])
+        print('RMSE: %.2f' % scores['rmse'])
+        print('RMSE/MEAN: %.4f' % scores['rmse_mean'])
+        return
 
     def get_estimators(self, type='classification'):
         if type=='classification':
-            return self.classifier_estimators
+            return self.classify_estimators
         else:
             return
 
@@ -210,7 +252,10 @@ class DS_SHAP():
         shap.summary_plot(self.shap_values, self.x, plot_type=plot_type)
         return
 
-    def show_all_dependence_plot(self):
+    def show_all_dependence_plot(self, type='classification'):
         for f in self.feature_cols:
-            shap.dependence_plot(ind=f, shap_values=self.shap_values[1], features=self.x, interaction_index=f)
+            if type == 'classsification':
+                shap.dependence_plot(ind=f, shap_values=self.shap_values[1], features=self.x, interaction_index=f)
+            elif type == 'regression':
+                shap.dependence_plot(ind=f, shap_values=self.shap_values, features=self.x, interaction_index=f)
         return
