@@ -252,7 +252,7 @@ class DS_MODEL():
                 scores_list[k].append(scores[k])
 
         for k in scores_list.keys():
-            print(k + ': %.2f' % np.mean(scores_list[k]))
+            print(k + ': %.4f' % np.mean(scores_list[k]))
 
         # # add model to dict
         # self.regression_estimators[est_name] = model
@@ -267,9 +267,9 @@ class DS_MODEL():
 
     def reg_score_report(self, y_test, y_pred):
         scores = self.calc_reg_scores(y_test, y_pred)
-        print('MAE: %.2f' % scores['mae'])
+        print('MAE: %.4f' % scores['mae'])
         print('MAE/MEAN: %.4f' % scores['mae_mean'])
-        print('RMSE: %.2f' % scores['rmse'])
+        print('RMSE: %.4f' % scores['rmse'])
         print('RMSE/MEAN: %.4f' % scores['rmse_mean'])
         return
 

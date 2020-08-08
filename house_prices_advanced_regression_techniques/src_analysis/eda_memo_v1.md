@@ -16,9 +16,9 @@
   - is_Exが効きそう
 
 ### Numerical
-- MSSubClass
+- MSSubClass, OverallQual, OverallCond 
   - カテゴリ変数に変換
-- LotArea
+- LotArea, LotFrontage
   - 対数化
 - YearRemodAdd
   - is_remodという変数を追加
