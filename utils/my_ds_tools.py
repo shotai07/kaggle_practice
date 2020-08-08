@@ -15,8 +15,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import VotingClassifier
@@ -27,7 +27,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedKFold, KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
 
@@ -107,7 +107,9 @@ class DS_MODEL():
         self.classify_estimators = {}
 
         self.base_regression_estimators = {
-            'lgb': lgb.LGBMRegressor(num_leaves=100, learning_rate=.1, min_split_gain=0)
+            'lgb': lgb.LGBMRegressor(num_leaves=100, learning_rate=.1, min_split_gain=0),
+            'dt': DecisionTreeRegressor(random_state=1),
+            'rf': RandomForestRegressor(n_estimators=100, random_state=1)
         }
         self.regression_estimators = {}
         return
@@ -216,6 +218,45 @@ class DS_MODEL():
         # add model to dict
         self.regression_estimators[est_name] = model
         return
+
+    def reg_fit_predict_cv(self, est_name, x=None, y=None, report_flg=True):
+        if est_name == 'vote':
+            if len(self.regression_estimators.keys()) > 2:
+                model = VotingClassifier(estimators=self.regression_estimators.items())
+            else:
+                print('Caution: No models')
+                return
+        else:
+            model = self.base_regression_estimators[est_name]
+
+        scores_list = {
+            'mae': [],
+            'mae_mean': [],
+            'rmse': [],
+            'rmse_mean': [],
+        }
+
+        for train_idx, test_idx in KFold(n_splits=5).split(x, y):
+            x_train = x.loc[train_idx, :]
+            y_train = y[train_idx]
+            x_test = x.loc[test_idx, :]
+            y_test = y[test_idx]
+
+            model.fit(x_train, y_train)
+
+            # predict test data
+            y_pred = model.predict(x_test)
+            scores = self.calc_reg_scores(y_test, y_pred)
+
+            for k in scores_list.keys():
+                scores_list[k].append(scores[k])
+
+        for k in scores_list.keys():
+            print(k + ': %.2f' % np.mean(scores_list[k]))
+
+        # # add model to dict
+        # self.regression_estimators[est_name] = model
+        return y_pred
 
     def calc_reg_scores(self, y_test, y_pred):
         mae = metrics.mean_absolute_error(y_test, y_pred)
