@@ -13,13 +13,13 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 
 from sklearn.decomposition import PCA
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression, Ridge, LinearRegression
+from sklearn.svm import SVC, SVR
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import VotingClassifier
+from sklearn.ensemble import VotingClassifier, VotingRegressor
 
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer, SimpleImputer
@@ -109,14 +109,18 @@ class DS_MODEL():
         self.base_regression_estimators = {
             'lgb': lgb.LGBMRegressor(num_leaves=100, learning_rate=.1, min_split_gain=0),
             'dt': DecisionTreeRegressor(random_state=1),
-            'rf': RandomForestRegressor(n_estimators=100, random_state=1)
+            'rf': RandomForestRegressor(n_estimators=100, random_state=1),
+            'rbf_svr': SVR(kernel='rbf'),
+            'linear_svr': SVR(kernel='linear'),
+            'linear': LinearRegression(),
+            'ridge': Ridge(alpha=1.0)
         }
         self.regression_estimators = {}
         return
 
     def class_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
         if est_name == 'vote':
-            if len(self.classify_estimators.keys()) > 2:
+            if len(self.classify_estimators.keys()) > 1:
                 model = VotingClassifier(estimators=self.classify_estimators.items())
             else:
                 print('Caution: No models')
@@ -139,7 +143,7 @@ class DS_MODEL():
 
     def class_fit_predict_cv(self, est_name, x=None, y=None, report_flg=True):
         if est_name == 'vote':
-            if len(self.classify_estimators.keys()) > 2:
+            if len(self.classify_estimators.keys()) > 1:
                 model = VotingClassifier(estimators=self.classify_estimators.items())
             else:
                 print('Caution: No models')
@@ -198,8 +202,9 @@ class DS_MODEL():
 
     def reg_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
         if est_name == 'vote':
-            if len(self.classify_estimators.keys()) > 2:
-                model = VotingClassifier(estimators=self.classify_estimators.items())
+            if len(self.regression_estimators.keys()) > 1:
+                print(self.regression_estimators.items())
+                model = VotingRegressor(estimators=self.regression_estimators.items())
             else:
                 print('Caution: No models')
                 return
@@ -221,8 +226,9 @@ class DS_MODEL():
 
     def reg_fit_predict_cv(self, est_name, x=None, y=None, report_flg=True):
         if est_name == 'vote':
-            if len(self.regression_estimators.keys()) > 2:
-                model = VotingClassifier(estimators=self.regression_estimators.items())
+            if len(self.regression_estimators.keys()) > 1:
+                print(self.regression_estimators.items())
+                model = VotingRegressor(estimators=self.regression_estimators.items())
             else:
                 print('Caution: No models')
                 return

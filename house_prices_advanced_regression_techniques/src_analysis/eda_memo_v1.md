@@ -16,10 +16,11 @@
   - is_Exが効きそう
 
 ### Numerical
-- MSSubClass, OverallQual, OverallCond 
+- MSSubClass, OverallQual, OverallCond
   - カテゴリ変数に変換
 - LotArea, LotFrontage
   - 対数化
+  - LotFrontageの欠損値：median埋め
 - YearRemodAdd
   - is_remodという変数を追加
     - if YearRemodAdd != YearBuilt
@@ -27,6 +28,9 @@
     - this year - max(YearBuilt, YearRemodAdd)
 - MasVnrArea
   - 対数化
+  - 欠損値：mode埋め
+- GarageYrBlt
+  - 欠損値：平均値埋め
 - BsmtFinSf2
   - 使わない
 - HalfBath
