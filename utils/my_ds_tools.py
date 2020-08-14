@@ -306,3 +306,13 @@ class DS_SHAP():
             elif type == 'regression':
                 shap.dependence_plot(ind=f, shap_values=self.shap_values, features=self.x, interaction_index=f)
         return
+
+    def show_dependence_plot(self, ind, interaction_index=None, type='classification'):
+        if interaction_index is None:
+            interaction_index = ind
+
+        if type == 'classsification':
+            shap.dependence_plot(ind=ind, shap_values=self.shap_values[1], features=self.x, interaction_index=interaction_index)
+        elif type == 'regression':
+            shap.dependence_plot(ind=ind, shap_values=self.shap_values, features=self.x, interaction_index=interaction_index)
+        return
