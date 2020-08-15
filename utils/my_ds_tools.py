@@ -34,6 +34,8 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.metrics import confusion_matrix, classification_report
 
+# import optuna.integration.lightgbm as lgb_optuna
+
 # Visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -174,10 +176,11 @@ class DS_MODEL():
                 scores_list[k].append(scores[k])
 
         for k in scores_list.keys():
-            print(k + ': %.2f' % np.mean(scores_list[k]))
+            print(k + ':\t%.4f' % np.mean(scores_list[k]))
 
-        # # add model to dict
-        # self.classifier_estimators[est_name] = model
+        model.fit(x, y)
+        # add model to dict
+        self.classify_estimators[est_name] = model
         return y_pred
 
     def calc_class_scores(self, y_test, y_pred):
@@ -192,12 +195,12 @@ class DS_MODEL():
     def class_score_report(self, y_test, y_pred):
         # print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
         # print("\nClassification Report:\n", classification_report(y_test, y_pred))
-        scores = calc_class_scores(y_test, y_pred)
-        print('AUC: %.2f' % scores['auc'])
-        print('Accuracy: %.2f' % scores['accuracy'])
-        print('Precision: %.2f' % scores['precision'])
-        print('Recall: %.2f' % scores['recall'])
-        print('F1: %.2f' % scores['f1'])
+        scores = self.calc_class_scores(y_test, y_pred)
+        print('AUC:\t\t%.4f' % scores['auc'])
+        print('Accuracy:\t%.4f' % scores['accuracy'])
+        print('Precision:\t%.4f' % scores['precision'])
+        print('Recall:\t\t%.4f' % scores['recall'])
+        print('F1:\t\t%.4f' % scores['f1'])
         return
 
     def reg_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
@@ -301,7 +304,7 @@ class DS_SHAP():
 
     def show_all_dependence_plot(self, type='classification'):
         for f in self.feature_cols:
-            if type == 'classsification':
+            if type == 'classification':
                 shap.dependence_plot(ind=f, shap_values=self.shap_values[1], features=self.x, interaction_index=f)
             elif type == 'regression':
                 shap.dependence_plot(ind=f, shap_values=self.shap_values, features=self.x, interaction_index=f)
