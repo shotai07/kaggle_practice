@@ -30,6 +30,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.model_selection import StratifiedKFold, KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
 
 from sklearn import metrics
 from sklearn.metrics import confusion_matrix, classification_report
@@ -95,10 +96,11 @@ class DS_PREPROCESS():
         return x.isnull().sum()
 
 class DS_MODEL():
+
     def __init__(self):
         self.base_classify_estimators = {
             'lgb': lgb.LGBMClassifier(num_leaves=100, learning_rate=0.1, min_split_gain=0),
-            'rbf_svm': SVC(kernel='rbf', random_state=1),
+            'rbf_svm': SVC(kernel='rbf'),
             'linear_svm': SVC(kernel='linear', random_state=1),
             'logit': LogisticRegression(random_state=1),
             'dt': DecisionTreeClassifier(random_state=1),
@@ -118,6 +120,30 @@ class DS_MODEL():
             'ridge': Ridge(alpha=1.0)
         }
         self.regression_estimators = {}
+
+        self.grid_params = {
+            'lgb': {
+                'n_estimators': [100, 400, 700, 1000],
+                'colsample_bytree': [0.7, 0.8, 1.0],
+                'max_depth': [15, 20, 25, 30],
+                'num_leaves': [50, 100, 200],
+                'reg_alpha': [1.0, 1.1, 1.2, 1.3],
+                'reg_lambda': [1.0, 1.1, 1.2, 1.3],
+                'min_split_gain': [0],
+                'subsample': [0.7, 0.8, 0.9, 1.0],
+                'subsample_freq': [20]
+            },
+            'rbf_svm': {
+                'kernel': ['rbf'],
+                'penalty': ['l1', 'l2'],
+                'loss': ['hinge', 'squared_hinge']
+            },
+            'linear_svm': {
+                'kernel': ['linear'],
+                'penalty': ['l1', 'l2'],
+                'loss': ['hinge', 'squared_hinge']
+            },
+        }
         return
 
     def class_fit_predict(self, x_train, x_test, y_train, y_test, est_name, report_flg=True):
@@ -281,6 +307,24 @@ class DS_MODEL():
         print('RMSE: %.4f' % scores['rmse'])
         print('RMSE/MEAN: %.4f' % scores['rmse_mean'])
         return
+
+    def class_gridsearch_cv(self, x_train, x_test, y_train, y_test,
+                           est_name, cv=3, scoring_fit='roc_auc',
+                           ):
+        gs = GridSearchCV(
+            estimator=self.base_classify_estimators[est_name],
+            param_grid=self.grid_params[est_name],
+            cv=cv,
+            n_jobs=-1,
+            scoring=scoring_fit,
+            verbose=2
+        )
+        gs.fit(x_train, y_train)
+        y_pred = gs.predict(x_test)
+
+        self.class_score_report(y_test, y_pred)
+
+        return gs.best_params_
 
     def get_estimators(self, type='classification'):
         if type=='classification':
