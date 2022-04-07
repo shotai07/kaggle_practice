@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "projects"
+version = "0.1.0"
+description = ""
+authors = ["shotai07"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+sklearn = "^0.0"
+jupyterlab = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+japanize-matplotlib = "*"
+pycaret = "^2.3.9"
+mlflow = "^1.24.0"
+kedro = "^0.18.0"
+lightgbm = "^3.3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
