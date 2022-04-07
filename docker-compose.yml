@@ -1,0 +1,11 @@
+version: '3'
+services:
+  analysis:
+    build: ./
+    user: root
+    volumes:
+      - ./:/projects
+    working_dir: /projects
+    tty: true
+    ports:
+      - "8888:8888"
