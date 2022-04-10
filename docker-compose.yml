@@ -8,4 +8,6 @@ services:
     working_dir: /projects
     tty: true
     ports:
-      - "8888:8888"
+      - "8888:8888" # jupyter
+      - "5000:5000" # mlflow
+      - "4141:4141" # kedro-viz

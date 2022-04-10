@@ -2,3 +2,19 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+
+titanic_train:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/titanic/train.csv
+
+titanic_test:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/titanic/test.csv
+
+titanic_gender:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/titanic/gender_submission.csv
+
+titanic_train_test_prepro:
+  type: pickle.PickleDataSet
+  filepath: data/05_model_input/titanic/train_test.pkl

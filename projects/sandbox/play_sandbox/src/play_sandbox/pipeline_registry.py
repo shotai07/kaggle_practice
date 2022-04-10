@@ -3,6 +3,8 @@ from typing import Dict
 
 from kedro.pipeline import Pipeline, pipeline
 
+from play_sandbox.pipelines.data_engineering import pipeline as de
+
 
 def register_pipelines() -> Dict[str, Pipeline]:
     """Register the project's pipelines.
@@ -10,4 +12,9 @@ def register_pipelines() -> Dict[str, Pipeline]:
     Returns:
         A mapping from a pipeline name to a ``Pipeline`` object.
     """
-    return {"__default__": pipeline([])}
+    de_pipeline = de.create_pipeline()
+
+    return {
+        "de": de_pipeline,
+        "__default__": de_pipeline,
+    }
