@@ -17,6 +17,7 @@ pycaret = "^2.3.9"
 mlflow = "^1.24.0"
 kedro = "^0.18.0"
 lightgbm = "^3.3.2"
+kedro-viz = "^4.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = ">=5.2"
