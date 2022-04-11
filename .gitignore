@@ -10,4 +10,3 @@ __pycache__/
 *.swp
 .DS_Store
 *.Trash*
-*/mlruns/*
