@@ -1,0 +1,15 @@
+artifact_uri: file:///projects/projects/sandbox/play_sandbox/notebooks/mlruns/2/e7369f5f61574cc1a2c50dd548cc7838/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: e7369f5f61574cc1a2c50dd548cc7838
+run_uuid: e7369f5f61574cc1a2c50dd548cc7838
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1649729898085
+status: 1
+tags: []
+user_id: root
