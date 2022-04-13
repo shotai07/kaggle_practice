@@ -185,6 +185,28 @@ python-versions = "*"
 chardet = ">=3.0.2"
 
 [[package]]
+name = "black"
+version = "22.3.0"
+description = "The uncompromising code formatter."
+category = "main"
+optional = false
+python-versions = ">=3.6.2"
+
+[package.dependencies]
+click = ">=8.0.0"
+mypy-extensions = ">=0.4.3"
+pathspec = ">=0.9.0"
+platformdirs = ">=2"
+tomli = {version = ">=1.1.0", markers = "python_version < \"3.11\""}
+typing-extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
+
+[package.extras]
+colorama = ["colorama (>=0.4.3)"]
+d = ["aiohttp (>=3.7.4)"]
+jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
+uvloop = ["uvloop (>=0.15.2)"]
+
+[[package]]
 name = "bleach"
 version = "4.1.0"
 description = "An easy safelist-based HTML-sanitizing tool."
@@ -1029,6 +1051,17 @@ test = ["coverage", "pytest (>=6.0)", "pytest-cov", "pytest-console-scripts", "p
 ui-tests = ["build"]
 
 [[package]]
+name = "jupyterlab-code-formatter"
+version = "1.4.10"
+description = "Code formatter for JupyterLab"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+jupyterlab = ">=3.0,<4.0"
+
+[[package]]
 name = "jupyterlab-pygments"
 version = "0.1.2"
 description = "Pygments theme using JupyterLab CSS variables"
@@ -1188,6 +1221,17 @@ scipy = ">=0.13.3"
 
 [package.extras]
 dev = ["pytest", "pytest-cov"]
+
+[[package]]
+name = "lckr-jupyterlab-variableinspector"
+version = "3.0.9"
+description = "Variable inspector extension for JupyterLab"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+jupyterlab = ">=3.0.0,<4.0.0"
 
 [[package]]
 name = "lightgbm"
@@ -1362,6 +1406,14 @@ python-versions = ">=3.7"
 name = "murmurhash"
 version = "1.0.6"
 description = "Cython bindings for MurmurHash"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "mypy-extensions"
+version = "0.4.3"
+description = "Experimental type system extensions for programs checked with the mypy typechecker."
 category = "main"
 optional = false
 python-versions = "*"
@@ -1666,6 +1718,14 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["docopt", "pytest (<6.0.0)"]
 
 [[package]]
+name = "pathspec"
+version = "0.9.0"
+description = "Utility library for gitignore style pattern matching of file paths."
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[[package]]
 name = "patsy"
 version = "0.5.2"
 description = "A Python package for describing statistical models and for building design matrices."
@@ -1763,6 +1823,18 @@ description = "The smartest command line arguments parser in the world"
 category = "main"
 optional = false
 python-versions = "*"
+
+[[package]]
+name = "platformdirs"
+version = "2.5.1"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["Sphinx (>=4)", "furo (>=2021.7.5b38)", "proselint (>=0.10.2)", "sphinx-autodoc-typehints (>=1.12)"]
+test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock (>=3.6)"]
 
 [[package]]
 name = "plotly"
@@ -2943,7 +3015,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<3.9"
-content-hash = "55c172ba26af3d950c472608145ef24eefe8dfd92af851b099a0e4d1182148e7"
+content-hash = "2a9b6b477f56259bdc083aa7611cb7382cf45cca51223c465faf83e7229e6306"
 
 [metadata.files]
 aiofiles = [
@@ -3024,6 +3096,31 @@ beautifulsoup4 = [
 binaryornot = [
     {file = "binaryornot-0.4.4-py2.py3-none-any.whl", hash = "sha256:b8b71173c917bddcd2c16070412e369c3ed7f0528926f70cac18a6c97fd563e4"},
     {file = "binaryornot-0.4.4.tar.gz", hash = "sha256:359501dfc9d40632edc9fac890e19542db1a287bbcfa58175b66658392018061"},
+]
+black = [
+    {file = "black-22.3.0-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:2497f9c2386572e28921fa8bec7be3e51de6801f7459dffd6e62492531c47e09"},
+    {file = "black-22.3.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:5795a0375eb87bfe902e80e0c8cfaedf8af4d49694d69161e5bd3206c18618bb"},
+    {file = "black-22.3.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:e3556168e2e5c49629f7b0f377070240bd5511e45e25a4497bb0073d9dda776a"},
+    {file = "black-22.3.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:67c8301ec94e3bcc8906740fe071391bce40a862b7be0b86fb5382beefecd968"},
+    {file = "black-22.3.0-cp310-cp310-win_amd64.whl", hash = "sha256:fd57160949179ec517d32ac2ac898b5f20d68ed1a9c977346efbac9c2f1e779d"},
+    {file = "black-22.3.0-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:cc1e1de68c8e5444e8f94c3670bb48a2beef0e91dddfd4fcc29595ebd90bb9ce"},
+    {file = "black-22.3.0-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6d2fc92002d44746d3e7db7cf9313cf4452f43e9ea77a2c939defce3b10b5c82"},
+    {file = "black-22.3.0-cp36-cp36m-win_amd64.whl", hash = "sha256:a6342964b43a99dbc72f72812bf88cad8f0217ae9acb47c0d4f141a6416d2d7b"},
+    {file = "black-22.3.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:328efc0cc70ccb23429d6be184a15ce613f676bdfc85e5fe8ea2a9354b4e9015"},
+    {file = "black-22.3.0-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:06f9d8846f2340dfac80ceb20200ea5d1b3f181dd0556b47af4e8e0b24fa0a6b"},
+    {file = "black-22.3.0-cp37-cp37m-win_amd64.whl", hash = "sha256:ad4efa5fad66b903b4a5f96d91461d90b9507a812b3c5de657d544215bb7877a"},
+    {file = "black-22.3.0-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:e8477ec6bbfe0312c128e74644ac8a02ca06bcdb8982d4ee06f209be28cdf163"},
+    {file = "black-22.3.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:637a4014c63fbf42a692d22b55d8ad6968a946b4a6ebc385c5505d9625b6a464"},
+    {file = "black-22.3.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:863714200ada56cbc366dc9ae5291ceb936573155f8bf8e9de92aef51f3ad0f0"},
+    {file = "black-22.3.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:10dbe6e6d2988049b4655b2b739f98785a884d4d6b85bc35133a8fb9a2233176"},
+    {file = "black-22.3.0-cp38-cp38-win_amd64.whl", hash = "sha256:cee3e11161dde1b2a33a904b850b0899e0424cc331b7295f2a9698e79f9a69a0"},
+    {file = "black-22.3.0-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:5891ef8abc06576985de8fa88e95ab70641de6c1fca97e2a15820a9b69e51b20"},
+    {file = "black-22.3.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:30d78ba6bf080eeaf0b7b875d924b15cd46fec5fd044ddfbad38c8ea9171043a"},
+    {file = "black-22.3.0-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:ee8f1f7228cce7dffc2b464f07ce769f478968bfb3dd1254a4c2eeed84928aad"},
+    {file = "black-22.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6ee227b696ca60dd1c507be80a6bc849a5a6ab57ac7352aad1ffec9e8b805f21"},
+    {file = "black-22.3.0-cp39-cp39-win_amd64.whl", hash = "sha256:9b542ced1ec0ceeff5b37d69838106a6348e60db7b8fdd245294dc1d26136265"},
+    {file = "black-22.3.0-py3-none-any.whl", hash = "sha256:bc58025940a896d7e5356952228b68f793cf5fcb342be703c3a2669a1488cb72"},
+    {file = "black-22.3.0.tar.gz", hash = "sha256:35020b8886c022ced9282b51b5a875b6d1ab0c387b31a065b84db7c33085ca79"},
 ]
 bleach = [
     {file = "bleach-4.1.0-py2.py3-none-any.whl", hash = "sha256:4d2651ab93271d1129ac9cbc679f524565cc8a1b791909c4a51eac4446a15994"},
@@ -3513,6 +3610,10 @@ jupyterlab = [
     {file = "jupyterlab-3.3.3-py3-none-any.whl", hash = "sha256:60b8d2e013621b044cf2ca82fff199dfda6db803eb4d0b9fe62678fabb29d841"},
     {file = "jupyterlab-3.3.3.tar.gz", hash = "sha256:294d67126015ba397f6b1c80563deec862e47e042623851bbe2a7d870d69eb6a"},
 ]
+jupyterlab-code-formatter = [
+    {file = "jupyterlab_code_formatter-1.4.10-py3-none-any.whl", hash = "sha256:10a7f2ab44a4539a44ec6bf3fc3b27e7ed22c7ab975e6503823e21d7e60abae7"},
+    {file = "jupyterlab_code_formatter-1.4.10.tar.gz", hash = "sha256:1645fd80b99d590d60fe0f3c078c9101ad62dfdbfac5e78b4c2d334896ab526f"},
+]
 jupyterlab-pygments = [
     {file = "jupyterlab_pygments-0.1.2-py2.py3-none-any.whl", hash = "sha256:abfb880fd1561987efaefcb2d2ac75145d2a5d0139b1876d5be806e32f630008"},
     {file = "jupyterlab_pygments-0.1.2.tar.gz", hash = "sha256:cfcda0873626150932f438eccf0f8bf22bfa92345b814890ab360d666b254146"},
@@ -3582,6 +3683,9 @@ kiwisolver = [
 kmodes = [
     {file = "kmodes-0.12.0-py2.py3-none-any.whl", hash = "sha256:f3abb9981ad0af703c484dd9b602136e859994388219fa2443c226ff1fe288ad"},
     {file = "kmodes-0.12.0.tar.gz", hash = "sha256:af120e3a4c35121978e41a462cd9b2943791f6aca825ebf8daf66e337c6903ce"},
+]
+lckr-jupyterlab-variableinspector = [
+    {file = "lckr_jupyterlab_variableinspector-3.0.9.tar.gz", hash = "sha256:762cbcc40891b42ad5686d9998d8a67da03517a450ba6499613109ce3476ffcd"},
 ]
 lightgbm = [
     {file = "lightgbm-3.3.2-py3-none-macosx_10_14_x86_64.macosx_10_15_x86_64.macosx_11_0_x86_64.whl", hash = "sha256:2e94bd1b3ab29d173102c9c1d80db2e27ad7e43b8ff5a74c5cb7984b37d19f45"},
@@ -3767,6 +3871,10 @@ murmurhash = [
     {file = "murmurhash-1.0.6-cp39-cp39-win_amd64.whl", hash = "sha256:cdd1036688341413e5adef32b3fd58e8b44f24405f394f90129f39ed879e4f24"},
     {file = "murmurhash-1.0.6.tar.gz", hash = "sha256:00a5252b569d3f914b5bd0bce72d2efe9c0fb91a9703556ea1b608b141c68f2d"},
 ]
+mypy-extensions = [
+    {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
+    {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
+]
 nbclassic = [
     {file = "nbclassic-0.3.7-py3-none-any.whl", hash = "sha256:89184baa2d66b8ac3c8d3df57cbcf16f34148954d410a2fb3e897d7c18f2479d"},
     {file = "nbclassic-0.3.7.tar.gz", hash = "sha256:36dbaa88ffaf5dc05d149deb97504b86ba648f4a80a60b8a58ac94acab2daeb5"},
@@ -3919,6 +4027,10 @@ parso = [
     {file = "parso-0.8.3-py2.py3-none-any.whl", hash = "sha256:c001d4636cd3aecdaf33cbb40aebb59b094be2a74c556778ef5576c175e19e75"},
     {file = "parso-0.8.3.tar.gz", hash = "sha256:8c07be290bb59f03588915921e29e8a50002acaf2cdc5fa0e0114f91709fafa0"},
 ]
+pathspec = [
+    {file = "pathspec-0.9.0-py2.py3-none-any.whl", hash = "sha256:7d15c4ddb0b5c802d161efc417ec1a2558ea2653c2e8ad9c19098201dc1c993a"},
+    {file = "pathspec-0.9.0.tar.gz", hash = "sha256:e564499435a2673d586f6b2130bb5b95f04a3ba06f81b8f895b651a3c76aabb1"},
+]
 patsy = [
     {file = "patsy-0.5.2-py2.py3-none-any.whl", hash = "sha256:cc80955ae8c13a7e7c4051eda7b277c8f909f50bc7d73e124bc38e2ee3d95041"},
     {file = "patsy-0.5.2.tar.gz", hash = "sha256:5053de7804676aba62783dbb0f23a2b3d74e35e5bfa238b88b7cbf148a38b69d"},
@@ -4000,6 +4112,10 @@ pip-tools = [
 plac = [
     {file = "plac-1.1.3-py2.py3-none-any.whl", hash = "sha256:487e553017d419f35add346c4c09707e52fa53f7e7181ce1098ca27620e9ceee"},
     {file = "plac-1.1.3.tar.gz", hash = "sha256:398cb947c60c4c25e275e1f1dadf027e7096858fb260b8ece3b33bcff90d985f"},
+]
+platformdirs = [
+    {file = "platformdirs-2.5.1-py3-none-any.whl", hash = "sha256:bcae7cab893c2d310a711b70b24efb93334febe65f8de776ee320b517471e227"},
+    {file = "platformdirs-2.5.1.tar.gz", hash = "sha256:7535e70dfa32e84d4b34996ea99c5e432fa29a708d0f4e394bbcb2a8faa4f16d"},
 ]
 plotly = [
     {file = "plotly-5.7.0-py2.py3-none-any.whl", hash = "sha256:3a35131762c6567813012462e1d496e1d3898f56ab3d386b32f103f7f0c79cf1"},
