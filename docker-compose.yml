@@ -5,6 +5,7 @@ services:
     user: root
     volumes:
       - ./:/projects
+      - ./root_jupyter:/root/.jupyter
     working_dir: /projects
     tty: true
     ports:
