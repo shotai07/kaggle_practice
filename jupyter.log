@@ -1,30 +1,19 @@
-[W 2022-04-13 21:39:51.495 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
-[I 2022-04-13 21:39:51.509 ServerApp] jupyterlab | extension was successfully linked.
-[I 2022-04-13 21:39:51.510 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
-[I 2022-04-13 21:39:51.529 ServerApp] nbclassic | extension was successfully linked.
-[I 2022-04-13 21:39:51.797 ServerApp] notebook_shim | extension was successfully linked.
-[W 2022-04-13 21:39:51.818 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
-[I 2022-04-13 21:39:51.821 ServerApp] notebook_shim | extension was successfully loaded.
-[I 2022-04-13 21:39:51.823 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
-[I 2022-04-13 21:39:51.824 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
-[I 2022-04-13 21:39:51.828 ServerApp] jupyterlab | extension was successfully loaded.
-[I 2022-04-13 21:39:51.829 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
-[I 2022-04-13 21:39:51.834 ServerApp] nbclassic | extension was successfully loaded.
-[I 2022-04-13 21:39:51.835 ServerApp] Serving notebooks from local directory: /projects
-[I 2022-04-13 21:39:51.836 ServerApp] Jupyter Server 1.16.0 is running at:
-[I 2022-04-13 21:39:51.836 ServerApp] http://3604e5f8a711:8888/lab
-[I 2022-04-13 21:39:51.837 ServerApp]  or http://127.0.0.1:8888/lab
-[I 2022-04-13 21:39:51.837 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 2022-04-13 21:39:51.842 ServerApp] No web browser found: could not locate runnable browser.
-[I 2022-04-13 21:39:55.499 ServerApp] 302 GET / (172.24.0.1) 0.87ms
-[W 2022-04-13 21:39:57.621 LabApp] Could not determine jupyterlab build status without nodejs
-Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/Grammar.txt
-Writing grammar tables to /root/.cache/black/22.3.0/Grammar3.8.13.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmp4zvyj38y'
-Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/PatternGrammar.txt
-Writing grammar tables to /root/.cache/black/22.3.0/PatternGrammar3.8.13.final.0.pickle
-Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpr1h073e9'
-[C 2022-04-13 21:41:48.254 ServerApp] received signal 15, stopping
-[I 2022-04-13 21:41:48.258 ServerApp] Shutting down 4 extensions
-[I 2022-04-13 21:41:48.261 ServerApp] Shutting down 0 kernels
-[I 2022-04-13 21:41:48.263 ServerApp] Shutting down 0 terminals
+[W 2022-04-17 17:49:23.427 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-17 17:49:23.437 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-17 17:49:23.438 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-17 17:49:23.455 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-17 17:49:23.721 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-17 17:49:23.761 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-17 17:49:23.764 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-17 17:49:23.765 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-17 17:49:23.766 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-17 17:49:23.771 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-17 17:49:23.772 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-17 17:49:23.781 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-17 17:49:23.783 ServerApp] The port 8888 is already in use, trying another port.
+[I 2022-04-17 17:49:23.784 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-17 17:49:23.784 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-17 17:49:23.785 ServerApp] http://3604e5f8a711:8889/lab
+[I 2022-04-17 17:49:23.785 ServerApp]  or http://127.0.0.1:8889/lab
+[I 2022-04-17 17:49:23.786 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-17 17:49:23.791 ServerApp] No web browser found: could not locate runnable browser.
