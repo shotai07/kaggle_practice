@@ -6,6 +6,7 @@ services:
     volumes:
       - ./:/projects
       - ./root_jupyter:/root/.jupyter
+      - ./root_kaggle:/root/.kaggle
     working_dir: /projects
     tty: true
     ports:

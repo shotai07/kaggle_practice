@@ -9,7 +9,7 @@ WORKDIR /app
 
 COPY poetry.lock pyproject.toml ./
 
-RUN apt-get update && apt-get -y install vim
+RUN apt-get update && apt-get -y install vim xsel
 
 RUN pip install poetry
 
