@@ -28,3 +28,1421 @@ Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/
 [I 2022-04-13 21:41:48.258 ServerApp] Shutting down 4 extensions
 [I 2022-04-13 21:41:48.261 ServerApp] Shutting down 0 kernels
 [I 2022-04-13 21:41:48.263 ServerApp] Shutting down 0 terminals
+[W 2022-04-18 14:46:30.311 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-18 14:46:30.325 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-18 14:46:30.326 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-18 14:46:30.346 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-18 14:46:30.348 ServerApp] Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-04-18 14:46:30.754 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-18 14:46:30.781 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-18 14:46:30.784 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-18 14:46:30.786 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-18 14:46:30.787 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-18 14:46:30.792 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-18 14:46:30.793 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-18 14:46:30.800 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-18 14:46:30.801 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-18 14:46:30.802 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-18 14:46:30.803 ServerApp] http://1a2dfccbccd6:8888/lab
+[I 2022-04-18 14:46:30.803 ServerApp]  or http://127.0.0.1:8888/lab
+[I 2022-04-18 14:46:30.804 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-18 14:46:30.809 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-04-18 14:46:33.349 ServerApp] 302 GET / (172.24.0.1) 1.55ms
+[W 2022-04-18 14:46:36.016 LabApp] Could not determine jupyterlab build status without nodejs
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/Grammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpm7jumm1h'
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/PatternGrammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmp117590dd'
+[W 2022-04-18 14:46:39.569 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260799554 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:39.571 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:39.573 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260799554 (172.24.0.1) 5.65ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[W 2022-04-18 14:46:41.213 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:41.243 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 32.74ms referer=None
+[W 2022-04-18 14:46:41.249 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260801236 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:41.250 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:41.252 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260801236 (172.24.0.1) 3.01ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[W 2022-04-18 14:46:44.654 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:44.656 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 4.12ms referer=None
+[W 2022-04-18 14:46:44.662 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260804645 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:44.663 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:44.665 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260804645 (172.24.0.1) 3.01ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[W 2022-04-18 14:46:49.550 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:49.554 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 6.17ms referer=None
+[W 2022-04-18 14:46:49.561 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260809537 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:49.562 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:49.564 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260809537 (172.24.0.1) 3.21ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[W 2022-04-18 14:46:50.023 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:50.030 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 10.02ms referer=None
+[W 2022-04-18 14:46:50.036 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260810012 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:50.038 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:46:50.040 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260810012 (172.24.0.1) 3.91ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[I 2022-04-18 14:46:58.191 ServerApp] Creating new notebook in /projects/sandbox/house_price/notebooks
+[I 2022-04-18 14:46:58.238 ServerApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[I 2022-04-18 14:46:58.545 ServerApp] Kernel started: 0e8d6d94-fb99-4913-8468-6864346b258c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 39179d98-da23-40da-804e-cc85c42c2c61
+[W 2022-04-18 14:47:10.917 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:10.920 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 5.26ms referer=None
+[W 2022-04-18 14:47:10.926 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260830913 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:10.927 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:10.929 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260830913 (172.24.0.1) 3.17ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[I 2022-04-18 14:47:18.414 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-18 14:47:27.419 ServerApp] Notebook projects/sandbox/play_sandbox/notebooks/titanic_000_eda.ipynb is not trusted
+[I 2022-04-18 14:47:28.203 ServerApp] Kernel started: 3ef9c537-42f1-40cd-ab73-194b43612cd6
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: aa594c72-c1af-49d8-9411-858b3cc1c9ce
+[W 2022-04-18 14:47:29.927 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:29.931 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682/channels?session_id=4dd38d0d-df6c-4d6f-a309-3e35fd3967a0 (172.24.0.1) 6.48ms referer=None
+[W 2022-04-18 14:47:29.937 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260849902 (172.24.0.1): Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:29.939 ServerApp] Kernel does not exist: 5f118d47-c31a-4325-943b-c83dd4f29682
+[W 2022-04-18 14:47:29.940 ServerApp] 404 GET /api/kernels/5f118d47-c31a-4325-943b-c83dd4f29682?1650260849902 (172.24.0.1) 3.29ms referer=http://localhost:8888/lab/tree/projects/sandbox
+[I 2022-04-18 14:48:23.661 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:49:26.380 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:50:12.591 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:50:23.807 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:52:19.664 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:52:44.686 ServerApp] Kernel interrupted: 0e8d6d94-fb99-4913-8468-6864346b258c
+[I 2022-04-18 14:53:38.497 ServerApp] Kernel interrupted: 0e8d6d94-fb99-4913-8468-6864346b258c
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.77934e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=3.04058e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=7.64419e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.66579e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 35311, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 35311, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py:548: FitFailedWarning: Estimator fit failed. The score on this train-test partition for these parameters will be set to 0.000000. Details: 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 531, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/pycaret/internal/pipeline.py", line 118, in fit
+    result = super().fit(X, y=y, **fit_kwargs)
+  File "/usr/local/lib/python3.8/site-packages/imblearn/pipeline.py", line 281, in fit
+    self._final_estimator.fit(Xt, yt, **fit_params)
+  File "/usr/local/lib/python3.8/site-packages/sklearn/discriminant_analysis.py", line 708, in fit
+    raise ValueError('y has only 1 sample in class %s, covariance '
+ValueError: y has only 1 sample in class 34900, covariance is ill defined.
+
+  warnings.warn("Estimator fit failed. The score on this train-test"
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 in labels with no true samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/usr/local/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+[I 2022-04-18 14:54:19.802 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:55:51.440 ServerApp] Starting buffering for 3ef9c537-42f1-40cd-ab73-194b43612cd6:9fb8e130-6407-4071-a163-f2264fdb46ab
+[I 2022-04-18 14:56:08.711 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:56:28.691 ServerApp] Kernel shutdown: 0e8d6d94-fb99-4913-8468-6864346b258c
+[I 2022-04-18 14:56:28.735 ServerApp] Kernel shutdown: 3ef9c537-42f1-40cd-ab73-194b43612cd6
+[I 2022-04-18 14:56:37.887 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:56:47.638 ServerApp] Kernel started: b1f50e6e-47b6-4bf4-b62b-1416a4807c58
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 9894ed10-0068-46ea-8c3a-171105eb6a67
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 87665500160.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 75723235328.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 85598298112.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 96805019648.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 92206522368.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=6.11466e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.61774e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 363543461888.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 413501095936.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 438371188736.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 400069361664.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 459421876224.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 81 iterations, i.e. alpha=4.285e+01, with an active set of 79 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 195 iterations, i.e. alpha=1.012e+01, with an active set of 183 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 252 iterations, alpha=5.803e+00, previous alpha=5.794e+00, with an active set of 227 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 160 iterations, i.e. alpha=1.720e+01, with an active set of 152 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 179 iterations, i.e. alpha=1.423e+01, with an active set of 169 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 206 iterations, i.e. alpha=1.058e+01, with an active set of 194 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 247 iterations, alpha=5.874e+00, previous alpha=5.817e+00, with an active set of 234 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 288 iterations, i.e. alpha=4.480e+00, with an active set of 248 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 289 iterations, i.e. alpha=4.471e+00, with an active set of 249 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 291 iterations, alpha=4.432e+00, previous alpha=4.383e+00, with an active set of 250 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 335 iterations, i.e. alpha=1.878e+00, with an active set of 289 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+[I 2022-04-18 14:58:24.299 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-18 14:58:44.887 ServerApp] Notebook projects/sandbox/play_sandbox/notebooks/titanic_000_eda.ipynb is not trusted
+[I 2022-04-18 14:58:45.679 ServerApp] Kernel started: 19d8e313-9472-4eb1-b95a-9cbee1919ae9
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 8f3cf382-363e-45e6-903c-8a93cdf3cd86
+[I 2022-04-18 14:59:46.832 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 14:59:57.192 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:00:29.955 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:02:30.020 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:04:31.263 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:19:03.206 ServerApp] Starting buffering for 19d8e313-9472-4eb1-b95a-9cbee1919ae9:2107a711-571c-496c-8c8b-60effcd41f36
+[I 2022-04-18 15:19:03.212 ServerApp] Starting buffering for b1f50e6e-47b6-4bf4-b62b-1416a4807c58:261b86a8-e081-478d-91e2-6ca1729f2ce5
+[I 2022-04-18 15:19:03.226 ServerApp] Restoring connection for 19d8e313-9472-4eb1-b95a-9cbee1919ae9:2107a711-571c-496c-8c8b-60effcd41f36
+[I 2022-04-18 15:19:03.274 ServerApp] Restoring connection for b1f50e6e-47b6-4bf4-b62b-1416a4807c58:261b86a8-e081-478d-91e2-6ca1729f2ce5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: acbef56d-1fee-4473-b2dc-922738ea1c4a
+[I 2022-04-18 15:22:27.560 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:24:28.518 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:28:29.774 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:28:44.060 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:28:45.173 ServerApp] Starting buffering for b1f50e6e-47b6-4bf4-b62b-1416a4807c58:261b86a8-e081-478d-91e2-6ca1729f2ce5
+[I 2022-04-18 15:28:45.176 ServerApp] Starting buffering for 19d8e313-9472-4eb1-b95a-9cbee1919ae9:2107a711-571c-496c-8c8b-60effcd41f36
+[W 2022-04-18 15:28:54.405 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-18 15:28:54.425 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-18 15:28:54.426 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-18 15:28:54.450 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-18 15:28:54.845 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-18 15:28:54.878 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-18 15:28:54.880 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-18 15:28:54.882 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-18 15:28:54.883 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-18 15:28:54.887 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-18 15:28:54.889 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-18 15:28:54.900 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-18 15:28:54.901 ServerApp] The port 8888 is already in use, trying another port.
+[I 2022-04-18 15:28:54.902 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-18 15:28:54.903 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-18 15:28:54.903 ServerApp] http://1a2dfccbccd6:8889/lab
+[I 2022-04-18 15:28:54.904 ServerApp]  or http://127.0.0.1:8889/lab
+[I 2022-04-18 15:28:54.905 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-18 15:28:54.910 ServerApp] No web browser found: could not locate runnable browser.
+[C 2022-04-18 15:29:04.426 ServerApp] received signal 15, stopping
+[I 2022-04-18 15:29:04.447 ServerApp] Shutting down 4 extensions
+[I 2022-04-18 15:29:04.454 ServerApp] Shutting down 2 kernels
+[I 2022-04-18 15:29:04.459 ServerApp] Kernel shutdown: b1f50e6e-47b6-4bf4-b62b-1416a4807c58
+[I 2022-04-18 15:29:04.463 ServerApp] Kernel shutdown: 19d8e313-9472-4eb1-b95a-9cbee1919ae9
+[I 2022-04-18 15:29:07.402 ServerApp] Shutting down 0 terminals
+[C 2022-04-18 15:32:41.400 ServerApp] received signal 15, stopping
+[I 2022-04-18 15:32:41.407 ServerApp] Shutting down 4 extensions
+[I 2022-04-18 15:32:41.409 ServerApp] Shutting down 0 kernels
+[I 2022-04-18 15:32:41.410 ServerApp] Shutting down 0 terminals
+[W 2022-04-18 15:35:50.662 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-18 15:35:50.676 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-18 15:35:50.677 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-18 15:35:50.697 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-18 15:35:50.996 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-18 15:35:51.035 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-18 15:35:51.042 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-18 15:35:51.046 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-18 15:35:51.048 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-18 15:35:51.054 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-18 15:35:51.058 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-18 15:35:51.066 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-18 15:35:51.068 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-18 15:35:51.070 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-18 15:35:51.071 ServerApp] http://1a2dfccbccd6:8888/lab
+[I 2022-04-18 15:35:51.072 ServerApp]  or http://127.0.0.1:8888/lab
+[I 2022-04-18 15:35:51.074 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-18 15:35:51.082 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-04-18 15:36:05.931 ServerApp] 302 GET / (172.24.0.1) 2.85ms
+[W 2022-04-18 15:36:08.280 LabApp] Could not determine jupyterlab build status without nodejs
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/Grammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpgxitsek_'
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/PatternGrammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpilst02u9'
+[I 2022-04-18 15:36:19.355 ServerApp] Kernel started: 7e703f5c-a75a-476c-a579-353e6c9e4286
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 6775e4c4-a932-4cec-aa4f-a5506650d9b6
+[I 2022-04-18 15:36:22.484 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 87665500160.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 96805019648.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 85598298112.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 75723235328.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 92206522368.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+[I 2022-04-18 15:36:38.888 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=6.11466e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.61774e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 363543461888.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 400069361664.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 413501095936.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 438371188736.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 459421876224.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 81 iterations, i.e. alpha=4.285e+01, with an active set of 79 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 160 iterations, i.e. alpha=1.720e+01, with an active set of 152 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 195 iterations, i.e. alpha=1.012e+01, with an active set of 183 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 252 iterations, alpha=5.803e+00, previous alpha=5.794e+00, with an active set of 227 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 288 iterations, i.e. alpha=4.480e+00, with an active set of 248 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 179 iterations, i.e. alpha=1.423e+01, with an active set of 169 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 289 iterations, i.e. alpha=4.471e+00, with an active set of 249 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 291 iterations, alpha=4.432e+00, previous alpha=4.383e+00, with an active set of 250 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 206 iterations, i.e. alpha=1.058e+01, with an active set of 194 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 247 iterations, alpha=5.874e+00, previous alpha=5.817e+00, with an active set of 234 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 335 iterations, i.e. alpha=1.878e+00, with an active set of 289 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+[I 2022-04-18 15:38:38.982 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:39:28.781 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:39:35.137 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:40:10.964 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-18 15:40:11.775 ServerApp] Starting buffering for 7e703f5c-a75a-476c-a579-353e6c9e4286:fd556e20-b6d8-4b28-ace7-49f467b78fac
+[I 2022-04-19 00:40:23.705 ServerApp] 302 GET / (172.24.0.1) 62.10ms
+[W 2022-04-19 00:40:25.922 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2022-04-19 00:40:42.588 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:42:43.014 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:44:44.061 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:45:37.008 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:45:55.003 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:47:55.081 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:48:18.625 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:50:18.727 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:51:25.730 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:52:51.730 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:52:55.964 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 00:54:15.266 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 00:54:23.715 ServerApp] delete /projects/sandbox/house_price/notebooks/pandas-profiling_report.html
+[W 2022-04-19 00:54:23.717 ServerApp] Skipping trash for /projects/projects/sandbox/house_price/notebooks/pandas-profiling_report.html, on different device to home directory
+[I 2022-04-19 00:56:16.029 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 01:04:56.780 ServerApp] Starting buffering for 7e703f5c-a75a-476c-a579-353e6c9e4286:7de30efc-f172-4266-8dc1-6b3165aa63d4
+[I 2022-04-19 01:04:56.797 ServerApp] Restoring connection for 7e703f5c-a75a-476c-a579-353e6c9e4286:7de30efc-f172-4266-8dc1-6b3165aa63d4
+[I 2022-04-19 08:58:13.089 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:00:13.180 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:01:31.091 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:03:31.165 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:06:28.776 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:10:21.102 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:12:21.880 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:17:48.922 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:17:52.145 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 09:18:07.016 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 12:05:19.417 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 12:05:26.063 ServerApp] Kernel shutdown: 7e703f5c-a75a-476c-a579-353e6c9e4286
+[I 2022-04-19 12:05:31.927 ServerApp] Kernel started: 099fd8c0-0ac6-448a-b066-767ad2fc4419
+[W 2022-04-19 12:05:33.345 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f2382cc2fa0>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 3264ccac-22ab-41c4-aafc-31eee74ba1bd
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 87665500160.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 75723235328.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 85598298112.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 96805019648.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 92206522368.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=6.11466e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.61774e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 363543461888.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 400069361664.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 413501095936.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 438371188736.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 459421876224.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 81 iterations, i.e. alpha=4.285e+01, with an active set of 79 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 195 iterations, i.e. alpha=1.012e+01, with an active set of 183 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 252 iterations, alpha=5.803e+00, previous alpha=5.794e+00, with an active set of 227 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 179 iterations, i.e. alpha=1.423e+01, with an active set of 169 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 206 iterations, i.e. alpha=1.058e+01, with an active set of 194 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 288 iterations, i.e. alpha=4.480e+00, with an active set of 248 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 289 iterations, i.e. alpha=4.471e+00, with an active set of 249 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 247 iterations, alpha=5.874e+00, previous alpha=5.817e+00, with an active set of 234 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 291 iterations, alpha=4.432e+00, previous alpha=4.383e+00, with an active set of 250 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 160 iterations, i.e. alpha=1.720e+01, with an active set of 152 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 335 iterations, i.e. alpha=1.878e+00, with an active set of 289 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 87665500160.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 75723235328.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 85598298112.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 96805019648.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 92206522368.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=6.11466e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_ridge.py:147: LinAlgWarning: Ill-conditioned matrix (rcond=2.61774e-12): result may not be accurate.
+  return linalg.solve(A, Xy, sym_pos=True,
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 363543461888.0, tolerance: 500438336.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 400069361664.0, tolerance: 458719488.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 438371188736.0, tolerance: 517984480.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 413501095936.0, tolerance: 485181856.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_coordinate_descent.py:529: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Duality gap: 459421876224.0, tolerance: 529154048.0
+  model = cd_fast.enet_coordinate_descent(
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 89 iterations, i.e. alpha=7.515e+01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 159 iterations, i.e. alpha=2.585e+04, with an active set of 138 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: overflow encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/utils/extmath.py:153: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/usr/local/lib/python3.8/site-packages/numpy/core/fromnumeric.py:86: RuntimeWarning: overflow encountered in reduce
+  return ufunc.reduce(obj, axis, dtype, out, **passkwargs)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:647: RuntimeWarning: overflow encountered in true_divide
+  g1 = arrayfuncs.min_pos((C - Cov) / (AA - corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:651: RuntimeWarning: overflow encountered in true_divide
+  g2 = arrayfuncs.min_pos((C + Cov) / (AA + corr_eq_dir + tiny32))
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:652: RuntimeWarning: divide by zero encountered in true_divide
+  gamma_ = min(g1, g2, C / AA)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:688: RuntimeWarning: invalid value encountered in multiply
+  coef[active] = prev_coef[active] + gamma_ * least_squares
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:691: RuntimeWarning: invalid value encountered in multiply
+  Cov -= gamma_ * corr_eq_dir
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 81 iterations, i.e. alpha=4.285e+01, with an active set of 79 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 195 iterations, i.e. alpha=1.012e+01, with an active set of 183 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 160 iterations, i.e. alpha=1.720e+01, with an active set of 152 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 252 iterations, alpha=5.803e+00, previous alpha=5.794e+00, with an active set of 227 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 179 iterations, i.e. alpha=1.423e+01, with an active set of 169 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 206 iterations, i.e. alpha=1.058e+01, with an active set of 194 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 247 iterations, alpha=5.874e+00, previous alpha=5.817e+00, with an active set of 234 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 288 iterations, i.e. alpha=4.480e+00, with an active set of 248 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 289 iterations, i.e. alpha=4.471e+00, with an active set of 249 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:598: ConvergenceWarning: Early stopping the lars path, as the residues are small and the current value of alpha is no longer well controlled. 291 iterations, alpha=4.432e+00, previous alpha=4.383e+00, with an active set of 250 regressors.
+  warnings.warn('Early stopping the lars path, as the residues '
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_least_angle.py:571: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 335 iterations, i.e. alpha=1.878e+00, with an active set of 289 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
+  warnings.warn('Regressors in active set degenerate. '
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute standard_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_coef_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: Attribute average_intercept_ was deprecated in version 0.23 and will be removed in 0.25.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/linear_model/_huber.py:296: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1254: FutureWarning: the classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/tree/_classes.py:1262: FutureWarning: the n_classes_ attribute is to be deprecated from version 0.22 and will be removed in 0.24.
+  warnings.warn(msg, FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+/usr/local/lib/python3.8/site-packages/sklearn/utils/deprecation.py:101: FutureWarning: The outputs_2d_ attribute is deprecated in version 0.22 and will be removed in version 0.24. It is equivalent to n_outputs_ > 1.
+  warnings.warn(msg, category=FutureWarning)
+[I 2022-04-19 12:07:20.176 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 12:09:35.414 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 12:11:26.017 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[I 2022-04-19 12:11:26.814 ServerApp] Starting buffering for 099fd8c0-0ac6-448a-b066-767ad2fc4419:70d4e7fc-ea2c-4139-8ddf-1ebb11015fc4
+[W 2022-04-19 12:49:12.970 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-19 12:49:12.983 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-19 12:49:12.984 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-19 12:49:13.006 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-19 12:49:13.008 ServerApp] Writing Jupyter server cookie secret to /root/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2022-04-19 12:49:13.465 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-19 12:49:13.494 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-19 12:49:13.498 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-19 12:49:13.501 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-19 12:49:13.501 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-19 12:49:13.506 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-19 12:49:13.508 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-19 12:49:13.514 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-19 12:49:13.516 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-19 12:49:13.517 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-19 12:49:13.517 ServerApp] http://1c26d851af54:8888/lab
+[I 2022-04-19 12:49:13.518 ServerApp]  or http://127.0.0.1:8888/lab
+[I 2022-04-19 12:49:13.519 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-19 12:49:13.524 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-04-19 12:49:15.161 ServerApp] 302 GET / (172.24.0.1) 1.68ms
+[W 2022-04-19 12:49:17.725 LabApp] Could not determine jupyterlab build status without nodejs
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/Grammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmp85y09wp9'
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/PatternGrammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpr8az_gol'
+[I 2022-04-19 12:49:19.642 ServerApp] Writing notebook-signing key to /root/.local/share/jupyter/notebook_secret
+[W 2022-04-19 12:49:19.668 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 12:49:20.451 ServerApp] Kernel started: ebd03e6d-d987-440f-bbce-e150c66ae462
+[W 2022-04-19 12:49:21.965 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f0c957d1460>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: b198f9f4-bed9-47eb-af75-3892e2255fd9
+[I 2022-04-19 12:49:41.586 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 12:49:41.588 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 13:15:11.482 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 13:15:11.486 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 13:15:12.575 ServerApp] Starting buffering for ebd03e6d-d987-440f-bbce-e150c66ae462:4e753f1b-0e82-4f37-bc17-2f93275fbe3a
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
+[W 2022-04-19 13:15:57.998 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-04-19 13:15:58.013 ServerApp] jupyterlab | extension was successfully linked.
+[I 2022-04-19 13:15:58.014 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2022-04-19 13:15:58.035 ServerApp] nbclassic | extension was successfully linked.
+[I 2022-04-19 13:15:58.327 ServerApp] notebook_shim | extension was successfully linked.
+[W 2022-04-19 13:15:58.349 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2022-04-19 13:15:58.351 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2022-04-19 13:15:58.354 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.8/site-packages/jupyterlab
+[I 2022-04-19 13:15:58.355 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 2022-04-19 13:15:58.361 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2022-04-19 13:15:58.362 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2022-04-19 13:15:58.367 ServerApp] nbclassic | extension was successfully loaded.
+[I 2022-04-19 13:15:58.369 ServerApp] Serving notebooks from local directory: /projects
+[I 2022-04-19 13:15:58.369 ServerApp] Jupyter Server 1.16.0 is running at:
+[I 2022-04-19 13:15:58.370 ServerApp] http://1c26d851af54:8888/lab
+[I 2022-04-19 13:15:58.371 ServerApp]  or http://127.0.0.1:8888/lab
+[I 2022-04-19 13:15:58.372 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2022-04-19 13:15:58.376 ServerApp] No web browser found: could not locate runnable browser.
+[I 2022-04-19 13:16:01.080 ServerApp] 302 GET / (172.24.0.1) 2.04ms
+[W 2022-04-19 13:16:03.300 LabApp] Could not determine jupyterlab build status without nodejs
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/Grammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/Grammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmptnidfwtj'
+Generating grammar tables from /usr/local/lib/python3.8/site-packages/blib2to3/PatternGrammar.txt
+Writing grammar tables to /root/.cache/black/22.3.0/PatternGrammar3.8.13.final.0.pickle
+Writing failed: [Errno 2] No such file or directory: '/root/.cache/black/22.3.0/tmpr2xf45ke'
+[W 2022-04-19 13:16:04.293 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 13:16:05.256 ServerApp] Kernel started: 7b495472-6d2e-42de-92a8-1f0895103b79
+[W 2022-04-19 13:16:06.833 ServerApp] Got events for closed stream <zmq.eventloop.zmqstream.ZMQStream object at 0x7f193b4ecc10>
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 628bdb30-3a1a-44be-b3b0-8e78165cdb99
+[I 2022-04-19 13:17:07.457 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 13:17:07.460 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 13:17:27.693 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 13:17:27.695 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 13:31:24.260 ServerApp] Starting buffering for 7b495472-6d2e-42de-92a8-1f0895103b79:5afd8bf0-2dfb-4db0-8ff5-02339835e482
+[I 2022-04-19 14:31:27.403 ServerApp] Starting buffering for 7b495472-6d2e-42de-92a8-1f0895103b79:e029e1aa-d30e-474d-ac09-c09f46303cbd
+[I 2022-04-19 14:31:27.425 ServerApp] Restoring connection for 7b495472-6d2e-42de-92a8-1f0895103b79:e029e1aa-d30e-474d-ac09-c09f46303cbd
+[I 2022-04-19 20:55:16.884 ServerApp] Starting buffering for 7b495472-6d2e-42de-92a8-1f0895103b79:5afd8bf0-2dfb-4db0-8ff5-02339835e482
+[I 2022-04-19 21:15:07.240 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:15:07.244 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:17:08.773 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:17:08.777 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:19:12.898 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:19:12.905 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:21:13.004 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:21:13.006 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:22:24.845 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:22:24.847 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:25:03.669 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:25:03.670 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:26:25.593 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:26:25.595 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:26:35.418 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:26:35.421 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:27:06.084 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:27:06.086 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
+[I 2022-04-19 21:29:07.856 ServerApp] Saving file at /projects/sandbox/house_price/notebooks/000_EDA.ipynb
+[W 2022-04-19 21:29:07.858 ServerApp] Notebook projects/sandbox/house_price/notebooks/000_EDA.ipynb is not trusted
