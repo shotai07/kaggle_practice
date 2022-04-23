@@ -12,3 +12,4 @@ __pycache__/
 *.Trash*
 */mlruns/*
 jupyter.log
+root_jupyter/
