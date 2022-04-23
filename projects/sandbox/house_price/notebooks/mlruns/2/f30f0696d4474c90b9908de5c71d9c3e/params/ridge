@@ -1,0 +1,2 @@
+Ridge(alpha=1.0, copy_X=True, fit_intercept=True, max_iter=None,
+      normalize=False, random_state=7549, solver='auto', tol=0.001)

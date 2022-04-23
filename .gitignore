@@ -11,4 +11,5 @@ __pycache__/
 .DS_Store
 *.Trash*
 */mlruns/*
-jupyter.loc
+jupyter.log
+root_jupyter/lab/*

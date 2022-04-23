@@ -1,0 +1,15 @@
+artifact_uri: file:///projects/projects/sandbox/house_price/notebooks/mlruns/2/cff49bd46088406db878c37e572f23a4/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '2'
+lifecycle_stage: active
+name: ''
+run_id: cff49bd46088406db878c37e572f23a4
+run_uuid: cff49bd46088406db878c37e572f23a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1650677766060
+status: 1
+tags: []
+user_id: root
