@@ -1,0 +1,4 @@
+artifact_location: file:///projects/projects/sandbox/house_price/notebooks/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: TEST_1
